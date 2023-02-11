@@ -1,0 +1,4 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+help.lixin.elasticsearch.env.ElasticsearchEnvironmentConfigService
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+help.lixin.elasticsearch.ElasticsearchAutoConfiguration

@@ -1,0 +1,6 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  elasticsearch:
+    rest:
+      uris: http://172.30.50.9:9200,http://172.30.50.13:9200,http://172.30.50.14:9200
