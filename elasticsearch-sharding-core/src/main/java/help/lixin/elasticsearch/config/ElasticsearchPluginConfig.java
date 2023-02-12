@@ -25,7 +25,7 @@ public class ElasticsearchPluginConfig {
                                                               //
                                                               ElasticsearchConverter elasticsearchConverter,
                                                               //
-                                                              @Autowired(required = false) IndexCoordinateService indexCoordinateService) {
+                                                              @Autowired(required = true) IndexCoordinateService indexCoordinateService) {
         return new ExtElasticsearchOperations(client, elasticsearchConverter, indexCoordinateService);
     }
 
